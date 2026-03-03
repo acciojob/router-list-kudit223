@@ -7,7 +7,7 @@ import ItemDetails from "./ItemDetail";
 
 const App = () => {
   return (
-    <div>
+    <div id="main">
         <Routes>
           <Route path="/" element={<ItemList/>}/>
           <Route path="/items/:id" element={<ItemDetails/>}/>
